@@ -2,7 +2,7 @@ pipeline {
 	agent any
 	stages {
 		stage('Build') {
-			stpes {
+			steps {
 				sh 'echo "hello world"'
 				sh '''
 					echo "Multiline shell steps works too"
